@@ -48,3 +48,16 @@ a.atual{
 .navbar span{
     font-size: 15px;
 }
+
+/* Salas */
+.room {
+    float: left;
+    width: 164px;
+    height: 85px;
+    text-align: center;
+    background: var(--corSala);
+    border-radius: 6px;
+    padding-bottom: 1.2154589372%;
+    margin-bottom: 3.86473429952%;
+    margin-top: 3.86473429952%;
+}

@@ -1,0 +1,28 @@
+{
+    "rooms": [
+        {
+            "name": "Sala 01",
+            "status": "Disponível",
+            "andar":0,
+            "id": 1
+        },
+        {
+            "name": "Sala 02",
+            "status": "Ocupada",
+            "andar":0,
+            "id": 2
+        },
+        {
+            "name": "Sala 03",
+            "status": "Disponível",
+            "andar":1,
+            "id": 3
+        },
+        {
+            "name": "Sala 04",
+            "status": "Ocupada",
+            "andar":1,
+            "id": 4
+        }
+    ]
+}
