@@ -28,3 +28,29 @@ Esta aplicação foi desenvolvida no âmbito do curso de Sistemas e Mídias Digi
 
 | Requisito  |  Definição  |  Código   |
 | ------------------- | ------------------- |--------------------------------|
+|  RF G001 |  Exibir tela de Login | Front-end |
+|  RF G002 |  Validação de formulário de Login | Front-end |
+|  RF G003 |  Autenticar dados de login | Back-end |
+|  RF G004 |  Efetivar Login | Back-end |
+|  RF G005 |  Visualizar tela de salas | Front-end |
+|  RF G006 |  Navegar por andares | Front-end |
+|  RF G007 |  Visualizar informações específicas de uma sala | Front-end | 
+|  RF G008 |  Visualizar horários de aulas | Front-end | 
+|  RF G009 |  Visualizar tela de filtros | Front-end | 
+|  RF G010 |  Filtrar | Back-end | 
+|  RF G011 |  Visualizar tela de perfil | Front-end | 
+|  RF G012 |  Permitir edição de dados de perfil | Front-end | 
+|  RF G013 |  Validar edição de dados | Back-end | 
+|  RF G014 |  Atualizar perfil | Back-end | 
+|  RF G015 |  Realizar Logout | Back-end | 
+
+| Requisito  |  Definição  |  Código   |
+| ------------------- | ------------------- |--------------------------------|
+|  RF UC001 | Visualizar tela de pedido de reserva | Front-end |
+|  RF UC002 | Enviar pedido de reserva | Back-end |
+|  RF UC003 | Visulaizar reservas | Front-end |
+|  RF UC004 | Visualizar tela de transferência de chave |  Front-end |
+|  RF UC005 | Validar transferência de chave | Back-end |
+|  RF UC006 | Fazer transferência de chave para outro usuário | Front e Back-end |
+|  RF UC007 | Receber transferência de chave de outro usuário | Front e Back-end |
+|  RF UC008 | Encerrar ocupação | Back |
