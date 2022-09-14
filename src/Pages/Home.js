@@ -1,20 +1,18 @@
 import NavBar from "../Components/NavBar";
-import RoomsList from "../Components/RoomsList";
-import useFetch from "../hooks/useFetch";
+import Pending from "../Components/Pending";
+import RoomsList from "../Components/Lists/RoomsList";
+import useFetch from "../Hooks/useFetch";
 
 const Home = () => {
     const { data: rooms, isPending, error } = useFetch('http://localhost:8000/rooms')
 
     return (
         <div className="container">
+            
             {error && <div>{error}</div>}
-            {isPending &&
-                <div className="d-flex justify-content-center mt-5">
-                    <div className="spinner-border text-primary mt-5" role="status">
-                    </div>
-                </div>
-            }
+            {isPending && <Pending />}
             {rooms && <RoomsList rooms={rooms} />}
+
             <NavBar />
         </div>
     );

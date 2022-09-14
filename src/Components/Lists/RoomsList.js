@@ -1,11 +1,11 @@
-import CardRoom from "./CardRoom";
+import CardRoom from "../CardRoom";
 
 const RoomsList = ({ rooms }) => {
     return (
-        <div className="room-list container">
+        <div className="container room-list">
             <div className="row mb-5">
                 {rooms.map((room) => (
-                    < CardRoom room={room} />
+                    <CardRoom room={room} />
                 ))}
             </div>
         </div>
