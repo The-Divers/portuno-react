@@ -22,7 +22,7 @@ Esta aplicação foi desenvolvida no âmbito do curso de Sistemas e Mídias Digi
 | Lazaro Natanael da Silva |
 | Marcos Erick Gomes Miranda |
 | Vládia Helen Ferreira Farias |
-| Colaborador - Deivid Freitas |
+| Colaborador - Deivid Mota Freitas |
 
 ### 🎯 Mapa de Requisitos
 
