@@ -53,6 +53,7 @@ a.atual {
 .room-list {
     margin-bottom: 75px;
 }
+
 .card-room {
     background: var(--corSala);
 }
@@ -70,4 +71,27 @@ a.atual {
 
 .card-room span.ocupado {
     background: var(--corVermelho);
+}
+
+/* Header */
+.select {
+    font-size: 25px;
+    font-weight: 800;
+    border: none;
+    background-color: var(--corFundo);
+
+}
+
+.filtros {
+    text-align: right;
+}
+.filtros span {
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+@media (orientation: landscape) {
+    .select {
+        border: solid #d5d5d5 1px;
+    }
 }
