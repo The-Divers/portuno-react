@@ -40,24 +40,34 @@ body {
     text-align: center;
 }
 
-a.atual{
+a.atual {
     color: #72a1f8;
     cursor: text;
 }
 
-.navbar span{
+.navbar span {
     font-size: 15px;
 }
 
-/* Salas */
-.room {
-    float: left;
-    width: 164px;
-    height: 85px;
-    text-align: center;
+/* Cardes de Salas */
+.room-list {
+    margin-bottom: 75px;
+}
+.card-room {
     background: var(--corSala);
-    border-radius: 6px;
-    padding-bottom: 1.2154589372%;
-    margin-bottom: 3.86473429952%;
-    margin-top: 3.86473429952%;
+}
+
+.card-room span {
+    width: 60%;
+    margin: auto;
+    border-radius: 12px;
+    color: var(--corFonteClara);
+}
+
+.card-room span.disponivel {
+    background: var(--corVerde);
+}
+
+.card-room span.ocupado {
+    background: var(--corVermelho);
 }
