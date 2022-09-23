@@ -7,14 +7,14 @@ Esta aplicação foi desenvolvida no âmbito do curso de Sistemas e Mídias Digi
 ![DIG - VIDEO (1)](https://user-images.githubusercontent.com/86852231/190161782-9e45accf-b4a3-4213-89b0-710a4f4b5a24.png)
 
 
-### 🛠 Como rodar na sua máquina
+## 🛠 Como rodar na sua máquina
  1 | Faça uma cópia do código em sua máquina com `git clone https://github.com/The-Divers/portuno-react.git`
  
  2 | Use ` npm start` para iniciar
  
  3 | Na pasta `/data` use `npx json-server db.json --port 8000`
  
-### 👥 The Divers
+## 👥 The Divers
 | Nome dos integrantes  |
 | ------------------- |
 | Eduardo Oliveira Viana |
@@ -24,7 +24,7 @@ Esta aplicação foi desenvolvida no âmbito do curso de Sistemas e Mídias Digi
 | Vládia Helen Ferreira Farias |
 | Colaborador - Deivid Mota Freitas |
 
-### 🎯 Mapa de Requisitos
+## 🎯 Mapa de Requisitos
 
 | Requisito  |  Definição  |  Código   |
 | ------------------- | ------------------- |--------------------------------|
