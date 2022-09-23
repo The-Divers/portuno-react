@@ -19,7 +19,7 @@ const Header = () => {
                 
                 <div className="filtros col-5 col-sm-3">
                     <button className="btn">
-                        <Filter size={30} />
+                        <Filter size={27} />
                         <span>Filtros</span>
                     </button>
                 </div>

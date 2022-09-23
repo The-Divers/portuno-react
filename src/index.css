@@ -40,7 +40,7 @@ body {
     text-align: center;
 }
 
-a.atual {
+.navbar a.atual {
     color: #72a1f8;
     cursor: text;
 }
@@ -58,6 +58,11 @@ a.atual {
     background: var(--corSala);
 }
 
+.card-room h4{
+    font-weight: 500;
+    font-size: 20px;
+}
+
 .card-room span {
     width: 60%;
     margin: auto;
@@ -71,6 +76,15 @@ a.atual {
 
 .card-room span.ocupado {
     background: var(--corVermelho);
+}
+
+.card-link {
+    color: var(--corFonteEscura);
+    text-decoration: none;
+}
+
+.card-link:hover{
+    color: var(--corFonteEscura);
 }
 
 /* Header */
